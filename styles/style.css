@@ -7,7 +7,7 @@ html {
 header,
 footer,
 .wrapper {
-  min-width: 1400px;
+  /* min-width: 1400px; */
   margin: 0 auto;
 }
 
@@ -90,7 +90,7 @@ section {
   position: relative;
   background-image: url(../resurces/Rectangle\ 1.png);
   height: 500px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -164,13 +164,13 @@ section {
 
 .project__btn {
   display: block;
-  padding: 56px 0;
   width: 100%;
+  height: 153px;
   border: 1px solid #AD1818;
   border-radius: 5px;
   background-color: #fff;
   font-size: 30px;
-  line-height: 41px;
+  line-height: 153px;
   text-align: center;
   color: #AD1818;
   cursor: pointer;
@@ -309,4 +309,157 @@ section {
   line-height: 27px;
   color: #FFFFFF;
   opacity: 0.5;
+}
+
+@media (max-width: 1199px) {
+
+  section {
+    margin-bottom: 120px;
+  }
+
+  .container {
+    width: 960px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Знакомство */
+
+  .acquaintance__title {
+    font-size: 50px;
+    width: 820px;
+  }
+
+  .acquaintance__image {
+    height: 400px;
+    width: 100%;
+  }
+
+  .acquaintance__description {
+    bottom: 30px;
+  }
+
+  /* О НАС */
+
+  .about__descr {
+    width: 690px;
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  /* ПРОЭКТЫ */
+
+  .project__content {
+    margin-bottom: 80px;
+  }
+
+  .project__content:last-child {
+    margin-bottom: 100px;
+  }
+
+  .project__image {
+    width: 100%;
+    height: 450px;
+  }
+
+  .project__descr {
+    margin-bottom: 10px;
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+  section {
+    margin-bottom: 80px;
+  }
+
+  .container {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .title {
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .heading-indent {
+    margin-bottom: 20px;
+  }
+
+  /* Знакомство */
+
+  .acquaintance__title {
+    margin-bottom: 25px;
+    width: 337px;
+    height: 95px;
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  .acquaintance__image {
+    height: 304px;
+  }
+
+  .acquaintance__description {
+    left: 15px;
+    bottom: 15px;
+    width: 312px;
+    height: 88px;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  /* О НАС */
+
+  .about__descr {
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
+    height: auto;
+  }
+
+  .about__btn {
+    width: 100%;
+    height: 51px;
+    font-size: 16px;
+    line-height: 51px;
+  }
+
+  /* ПРОЭКТЫ */
+
+  .project__content {
+    margin-bottom: 49px;
+  }
+
+  .project__content:last-child {
+    margin-bottom: 60px;
+  }
+
+  .project__image {
+    margin-bottom: 20px;
+    height: 250px;
+  }
+
+  .project__descr {
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  .project__more {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .project__btn {
+    height: 100px;
+    font-size: 22px;
+    line-height: 100px;
+  }
+
 }
