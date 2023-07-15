@@ -1,0 +1,41 @@
+.contacts {
+  padding-bottom: 10px;
+}
+
+.contacts h2 {
+  margin-bottom: 32px;
+  position: relative;
+}
+
+.contacts h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  top: -36px;
+  left: -4px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../resurces/ic_outline-phone-iphone.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contacts__items {
+  margin-bottom: 30px;
+}
+
+.contacts__item {
+  font-size: 60px;
+  line-height: 60px;
+  text-decoration: none;
+  color: #121212;
+}
+
+.contacts__phone {
+  letter-spacing: -1px;
+}
+
+.contacts__item:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid #000;
+}

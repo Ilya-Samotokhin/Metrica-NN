@@ -1,0 +1,18 @@
+.fullWidthImage {
+  position: relative;
+  margin-bottom: 186px;
+  height: 717px;
+  background-image: url(../resurces/bed-on-gray.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.fullWidthImage__text {
+  position: absolute;
+  bottom: 60px;
+  width: 443px;
+  font-size: 30px;
+  line-height: 41px;
+  color: #fff;
+}

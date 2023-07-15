@@ -1,0 +1,20 @@
+.nav {
+  float: right;
+}
+
+.nav__link {
+  font-size: 18px;
+  line-height: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.nav__link:not(:last-child) {
+  margin-right: 58px;
+}
+
+.nav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
