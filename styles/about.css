@@ -31,8 +31,10 @@
 
   .about__descr {
     width: 690px;
+    height: auto;
     font-size: 35px;
     line-height: 48px;
+
   }
 }
 

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>МетрикаНН</title>
   <link rel="stylesheet" href="styles/reset.css">
+  <link rel="icon" href="/resurces/favicon.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,11 +33,11 @@
 
   <main class="wrapper">
 
-    <section class="acquaintance">
+    <section class="intro">
       <div class="container">
-        <h1 class="acquaintance__title">Современные и стильные интерьеры для комфортной жизни</h1>
-        <div class="acquaintance__image">
-          <p class="acquaintance__description">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
+        <h1 class="intro__title">Современные и стильные интерьеры для комфортной жизни</h1>
+        <div class="intro__image">
+          <p class="intro__description">Мы - команда квалифицированных дизайнеров и архитекторов, занимающихся
             разработкой и реализацией дизайн-проектов
           </p>
         </div>
@@ -63,22 +64,34 @@
         <h2 class="title heading-indent">Проекты</h2>
         <ul class="project">
           <li class="project__content">
-            <img src="resurces/right-bank.jpg" alt="Диван и гитара" class="project__image">
+            <picture>
+              <source media="(max-width: 500px)" srcset="resurces/right_mobile.jpg" />
+              <source media="(max-width: 1199px)" srcset="resurces/right_tablet.jpg" />
+              <img src="resurces/right-bank.jpg" alt="Диван и гитара" class="project__image">
+            </picture>
             <h3 class="project__descr">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h3>
             <a href="#" class="project__more">Подробнее →</a>
           </li>
           <li class="project__content">
-            <img src="resurces/norw-park.jpg" alt="Желтый на фоне серого и зеленого" class="project__image">
+            <picture>
+              <source media="(max-width: 500px)" srcset="resurces/norway_mobile.jpg" />
+              <source media="(max-width: 1199px)" srcset="resurces/norway_tablet.jpg" />
+              <img src="resurces/norw-park.jpg" alt="Желтый на фоне серого и зеленого" class="project__image">
+            </picture>
             <h3 class="project__descr">ЖК НОРВЕЖСКИЙ ПАРК — 75 М² — 2023</h3>
             <a href="#" class="project__more">Подробнее →</a>
           </li>
           <li class="project__content">
-            <img src="resurces/pine-lakes.jpg" alt="Цветы на столе" class="project__image">
+            <picture>
+              <source media="(max-width: 500px)" srcset="resurces/lakes_mobile.jpg" />
+              <source media="(max-width: 1199px)" srcset="resurces/lakes_tablet.jpg" />
+              <img src="resurces/pine-lakes.jpg" alt="Цветы на столе" class="project__image">
+            </picture>
             <h3 class="project__descr">ЖК СОСНОВСКИЕ ОЗЕРА — 94 М² — 2022</h3>
             <a href="#" class="project__more">Подробнее →</a>
           </li>
         </ul>
-        <a href="#fullWidthImage" class="project__btn">Смотреть все проекты</a>
+        <a href="#gallery" class="project__btn">Смотреть все проекты</a>
       </div>
     </section>
 
@@ -109,9 +122,9 @@
       </div>
     </section>
 
-    <section id="fullWidthImage" class="fullWidthImage">
+    <section id="gallery" class="gallery">
       <div class="container">
-        <p class="fullWidthImage__text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+        <p class="gallery__text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
       </div>
     </section>
 

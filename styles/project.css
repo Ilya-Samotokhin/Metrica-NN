@@ -43,7 +43,7 @@
 @media (max-width: 1199px) {
 
   .project__content {
-    margin-bottom: 80px;
+    margin-bottom: 77px;
   }
 
   .project__content:last-child {
@@ -66,7 +66,7 @@
 @media (max-width: 767px) {
 
   .project__content {
-    margin-bottom: 49px;
+    margin-bottom: 45px;
   }
 
   .project__content:last-child {
@@ -76,6 +76,7 @@
   .project__image {
     margin-bottom: 20px;
     height: 250px;
+    object-fit: cover;
   }
 
   .project__descr {
