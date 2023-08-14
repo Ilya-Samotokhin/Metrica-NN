@@ -1,7 +1,6 @@
 .services {
   padding: 149px 0;
   background-color: #121212;
-  margin-bottom: 0;
 }
 
 .services .title {
@@ -18,6 +17,7 @@
 }
 
 .services__content {
+  position: relative;
   width: calc(50% - 6px);
 }
 
@@ -47,6 +47,18 @@
   background-color: #AD1818;
   color: #fff;
   letter-spacing: -0.9px;
+}
+
+.services__price {
+  position: absolute;
+  left: 30px;
+  top: 32px;
+  padding: 5px 21px;
+  line-height: 30px;
+  font-size: 22px;
+  border-radius: 3px;
+  background-color: #AD1818;
+  color: #fff;
 }
 
 @media (max-width: 1199px) {
