@@ -1,0 +1,25 @@
+.reviews-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 50px;
+}
+
+.reviews {
+  width: calc(50% - 25px);
+}
+
+.reviews__subtitle {
+  font-size: 45px;
+  line-height: 61.5px;
+  margin-bottom: 14px;
+}
+
+.reviews__text {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.reviews:last-child:nth-child(2n+1) {
+  width: 75%;
+}
