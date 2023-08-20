@@ -41,6 +41,9 @@
 }
 
 @media (max-width: 1199px) {
+  .projects {
+    margin-bottom: 100px;
+  }
 
   .project__content {
     margin-bottom: 77px;
@@ -64,6 +67,10 @@
 }
 
 @media (max-width: 767px) {
+
+  .projects {
+    margin-bottom: 80px;
+  }
 
   .project__content {
     margin-bottom: 45px;
