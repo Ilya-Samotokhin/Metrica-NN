@@ -49,6 +49,11 @@
   letter-spacing: -0.9px;
 }
 
+.services__btn:hover {
+  background-color: #fff;
+  color: #AD1818;
+}
+
 .services__price {
   position: absolute;
   left: 30px;
