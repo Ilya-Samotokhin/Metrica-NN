@@ -1,5 +1,6 @@
 .services {
-  padding: 151px 0;
+  padding-top: 151px;
+  padding-bottom: 147px;
   background-color: #121212;
 }
 
@@ -39,14 +40,14 @@
 .services__btn {
   display: block;
   width: 100%;
-  border-radius: 5px;
   text-align: center;
   font-size: 30px;
   line-height: 153px;
   text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid #AD1818;
   background-color: #AD1818;
   color: #fff;
-  letter-spacing: -0.9px;
 }
 
 .services__btn:hover {
