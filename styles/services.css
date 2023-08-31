@@ -9,7 +9,7 @@
   color: #fff;
 }
 
-.services__wrapper {
+.services__list {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
@@ -29,10 +29,8 @@
   margin-bottom: 25px;
 }
 
-.services__descr {
+.services .subtitle {
   padding-left: 4px;
-  font-size: 30px;
-  line-height: 39px;
   color: #fff;
   letter-spacing: -0.9px;
 }
@@ -45,6 +43,7 @@
   line-height: 153px;
   text-decoration: none;
   border-radius: 5px;
+  font-family: 'Manrope', sans-serif;
   border: 1px solid #AD1818;
   background-color: #AD1818;
   color: #fff;
@@ -69,10 +68,10 @@
 
 @media (max-width: 1199px) {
   .services {
-    padding-bottom: 120px;
+    padding-bottom: 115px;
   }
 
-  .services__wrapper {
+  .services__list {
     margin-bottom: 80px;
     row-gap: 76px;
   }
@@ -86,10 +85,9 @@
     margin-bottom: 15px;
   }
 
-  .services__descr {
-    font-size: 25px;
-    line-height: 34px;
+  .services .subtitle {
     letter-spacing: -0.75px;
+    padding-left: 0;
   }
 
 
@@ -101,7 +99,7 @@
     padding-bottom: 74px;
   }
 
-  .services__wrapper {
+  .services__list {
     row-gap: 60px;
     margin-bottom: 60px;
   }
@@ -119,9 +117,7 @@
     margin-bottom: 9px;
   }
 
-  .services__descr {
-    font-size: 18px;
-    line-height: 23px;
+  .services .subtitle {
     letter-spacing: -0.54px;
   }
 

@@ -26,7 +26,8 @@ h2,
 h3,
 p,
 a,
-div {
+div,
+button {
   letter-spacing: -0.03em;
 }
 
@@ -60,6 +61,11 @@ section {
   margin-bottom: 30px;
 }
 
+.subtitle {
+  font-size: 30px;
+  line-height: 39px;
+}
+
 @media (max-width: 1199px) {
 
   section {
@@ -72,6 +78,11 @@ section {
     padding-right: 15px;
   }
 
+  .subtitle {
+    font-size: 25px;
+    line-height: 34px;
+  }
+
 }
 
 @media (max-width: 767px) {
@@ -81,7 +92,6 @@ section {
   }
 
   .container {
-    width: 100%;
     padding-left: 12px;
     padding-right: 12px;
   }
@@ -94,5 +104,11 @@ section {
   .heading-indent {
     margin-bottom: 20px;
   }
+
+  .subtitle {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
 
 }
