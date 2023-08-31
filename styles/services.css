@@ -54,13 +54,11 @@
   color: #AD1818;
 }
 
-.services__price {
+.services .inner-text {
   position: absolute;
   left: 30px;
   top: 32px;
   padding: 5px 21px;
-  line-height: 30px;
-  font-size: 22px;
   border-radius: 3px;
   background-color: #AD1818;
   color: #fff;
@@ -88,6 +86,10 @@
   .services .subtitle {
     letter-spacing: -0.75px;
     padding-left: 0;
+  }
+
+  .services .inner-text {
+    padding: 5px 27px;
   }
 
 
@@ -121,12 +123,12 @@
     letter-spacing: -0.54px;
   }
 
-  .services__price {
+  .services .inner-text {
     left: 24px;
     top: 23px;
     padding: 5px 24px;
-    line-height: 19px;
     font-size: 14px;
+    line-height: 19px;
     border-radius: 3px;
     background-color: #AD1818;
     color: #fff;

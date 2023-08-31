@@ -15,11 +15,6 @@
   margin-bottom: 14px;
 }
 
-.review__text {
-  font-size: 22px;
-  line-height: 30px;
-}
-
 .review:last-child:nth-child(2n+1) {
   width: 75%;
 }
@@ -36,10 +31,6 @@
     width: calc(50% - 5px);
   }
 
-  .review__text {
-    font-size: 20px;
-    line-height: 27px;
-  }
 
 }
 
@@ -68,7 +59,7 @@
     margin-bottom: 10px;
   }
 
-  .review__text {
+  .review .inner-text {
     font-size: 16px;
     line-height: 22px;
   }

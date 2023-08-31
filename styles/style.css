@@ -66,6 +66,11 @@ section {
   line-height: 39px;
 }
 
+.inner-text {
+  font-size: 22px;
+  line-height: 30px;
+}
+
 @media (max-width: 1199px) {
 
   section {
@@ -81,6 +86,11 @@ section {
   .subtitle {
     font-size: 25px;
     line-height: 34px;
+  }
+
+  .inner-text {
+    font-size: 20px;
+    line-height: 27px;
   }
 
 }
