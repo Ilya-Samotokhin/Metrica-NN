@@ -1,6 +1,5 @@
 .gallery {
   position: relative;
-  margin-bottom: 186px;
   height: 717px;
 }
 
@@ -98,8 +97,8 @@
   }
 
   .gallery__title-wrapper {
-    padding-left: 38px;
     top: 75px;
+    padding-left: 38px;
   }
 
   .gallery__title {
@@ -114,8 +113,8 @@
 
 
   .slide__subtitle-wrapper {
-    padding-left: 38px;
     bottom: 80px;
+    padding-left: 38px;
   }
 
   .slide__subtitle {
@@ -151,8 +150,8 @@
   }
 
   .slide__subtitle-wrapper {
-    padding-left: 0;
     bottom: 60px;
+    padding-left: 0;
   }
 
   .slide__subtitle {
