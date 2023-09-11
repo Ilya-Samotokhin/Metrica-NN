@@ -72,6 +72,8 @@
   color: inherit;
   background-color: transparent;
   cursor: pointer;
+  width: 40px;
+  height: 40px;
 }
 
 .gallery__controls button:hover {
@@ -143,6 +145,12 @@
     padding-left: 0px;
     bottom: 46%;
   }
+
+  .gallery__controls button {
+    width: 30px;
+    height: 30px;
+  }
+
 
   .gallery__controls {
     display: flex;
