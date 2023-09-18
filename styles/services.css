@@ -38,6 +38,7 @@
 .services__btn {
   display: block;
   width: 100%;
+  cursor: pointer;
   text-align: center;
   font-size: 30px;
   line-height: 153px;
