@@ -35,7 +35,6 @@
   overflow: auto;
   background-color: #fff;
   border-radius: 10px;
-  transition: all 0.3 ease;
 }
 
 .popup__close-btn {
@@ -48,7 +47,7 @@
   background-image: url(../resurces/close-btn.svg);
   background-position: center;
   background-repeat: no-repeat;
-
+  transition: all 0.3s ease;
 }
 
 .popup__close-btn:hover {
@@ -68,6 +67,26 @@
   margin-bottom: 60px;
 }
 
+.popup__input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  margin-bottom: 80px;
+}
+
+.input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  font-size: 25px;
+  line-height: 34px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+
 .popup-btn {
   font-size: 20px;
   line-height: 27px;
@@ -76,25 +95,35 @@
 
 
 
-@media (max-width: 1199px) {}
-
 @media (max-width: 767px) {
   .popup__content {
-    width: 100%;
+    width: 361px;
     padding-left: 12px;
     padding-right: 12px;
+
   }
-}
 
-.popup__title {
-  margin-bottom: 5px;
-  font-size: 25px;
-  line-height: 34px;
-  margin-bottom: 11px;
-}
+  .popup__title {
+    margin-bottom: 5px;
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 11px;
+  }
 
-.popup__text {
-  font-size: 14px;
-  line-height: 19px;
-  margin-bottom: 60px;
+  .popup__text {
+    width: 300px;
+    font-size: 14px;
+    line-height: 19px;
+    margin-bottom: 60px;
+  }
+
+  .popup__input {
+    row-gap: 40px;
+    margin-bottom: 60px;
+  }
+
+  .input {
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
