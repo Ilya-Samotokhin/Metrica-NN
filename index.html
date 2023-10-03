@@ -17,19 +17,72 @@
 
 <body>
 
-  <!-- <header>
+  <header>
     <div class="container">
-      <a href="#" class="logo-link">
-        <img src="resurces/logo.png" class="logo" alt="метрика-логотип">
-      </a>
-      <nav class="nav">
-        <a href="#about" class="nav__link">О нас</a>
-        <a href="#projects" class="nav__link">Проекты</a>
-        <a href="#services" class="nav__link">Услуги</a>
-        <a href="#contacts" class="nav__link">Контакты</a>
-      </nav>
+      <div class="header__inner">
+        <a href="#" class="logo-link">
+          <picture>
+            <source media="(max-width: 767px)" srcset="resurces/logo-phone.png">
+            <img src="resurces/logo.png" class="logo" alt="метрика-логотип">
+          </picture>
+        </a>
+        <nav>
+          <ul class="nav">
+            <li class="nav__links">
+              <a href="#about" class="nav__link">О нас</a>
+            </li>
+            <li class="nav__links">
+              <a href="#projects" class="nav__link">Проекты</a>
+            </li>
+            <li class="nav__links">
+              <a href="#services" class="nav__link">Услуги</a>
+            </li>
+            <li class="nav__links">
+              <a href="#contacts" class="nav__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <button class="js-burger-btn burger-btn"></button>
+      <div class="js-burger burger">
+        <div class=" burger__content">
+          <a href="#" class="burger__logo">
+            <img src="resurces/logo-burger.png" alt="Метрика">
+          </a>
+          <div class="burger__nav">
+            <nav>
+              <ul class="nav">
+                <li class="nav__links">
+                  <a href="#about" class="nav__link">О нас</a>
+                </li>
+                <li class="nav__links">
+                  <a href="#projects" class="nav__link">Проекты</a>
+                </li>
+                <li class="nav__links">
+                  <a href="#services" class="nav__link">Услуги</a>
+                </li>
+                <li class="nav__links">
+                  <a href="#contacts" class="nav__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="js-burger__content burger__contacts">
+              <p class="burger__subtitle">для связи:</p>
+              <ul class="burger__contacts-list">
+                <li>
+                  <a href="tel:+79358954535" class="burger__contact">+7 935 895-45-35</a>
+                </li>
+                <li>
+                  <a href="https://t.me/SamotokhinIIlya" target="_blank" class="burger__contact">samotokhinIIlya</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </header> -->
+  </header>
 
   <main class="wrapper">
 
@@ -283,8 +336,9 @@
     <p class="footer-text">студия дизайна интерьера Метрика — 2023</p>
   </footer>
 
-  <script src="popup.js"></script>
+  <script src="burger.js"></script>
   <script src="gallery.js"></script>
+  <script src="popup.js"></script>
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-@import "../styles/nav.css";
+@import "../styles/header.css";
 @import "../styles/intro.css";
 @import "../styles/about.css";
 @import "../styles/project.css";
@@ -8,6 +8,7 @@
 @import "../styles/footer.css";
 @import "../styles/reviews.css";
 @import "../styles/popup.css";
+@import "../styles/burger.css";
 
 html {
   scroll-behavior: smooth;
