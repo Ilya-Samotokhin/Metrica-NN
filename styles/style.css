@@ -33,6 +33,11 @@ button {
   letter-spacing: -0.03em;
 }
 
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
 .container {
   width: 1150px;
   margin: 0 auto;

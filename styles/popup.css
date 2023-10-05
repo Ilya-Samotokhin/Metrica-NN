@@ -4,6 +4,7 @@
 
 .popup {
   position: fixed;
+  z-index: 100;
   top: 0;
   left: 0;
   width: 100%;
@@ -27,11 +28,7 @@
   position: relative;
   width: 777px;
   max-height: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
-  padding: 95px 70px 85px;
+  padding: 95px 70px 85px 55px;
   overflow: auto;
   background-color: #fff;
   border-radius: 10px;
@@ -58,13 +55,14 @@
   margin-bottom: 5px;
   font-size: 45px;
   line-height: 62px;
-  margin-bottom: 5px;
+  text-align: center;
 }
 
 .popup__text {
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .popup__input {
@@ -98,9 +96,12 @@
 @media (max-width: 767px) {
   .popup__content {
     width: 361px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 80px 20px;
+  }
 
+  .popup__close-btn {
+    width: 18px;
+    height: 18px;
   }
 
   .popup__title {

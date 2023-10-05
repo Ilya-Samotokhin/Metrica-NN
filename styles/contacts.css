@@ -51,7 +51,7 @@
   }
 
   .contacts__items {
-    column-gap: 121px;
+    column-gap: 76px;
   }
 
   .contacts__phone::before {

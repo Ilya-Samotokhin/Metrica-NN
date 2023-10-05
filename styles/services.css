@@ -38,13 +38,11 @@
 .services__btn {
   display: block;
   width: 100%;
-  cursor: pointer;
   text-align: center;
   font-size: 30px;
   line-height: 153px;
   text-decoration: none;
   border-radius: 5px;
-  font-family: 'Manrope', sans-serif;
   border: 1px solid #AD1818;
   background-color: #AD1818;
   color: #fff;
