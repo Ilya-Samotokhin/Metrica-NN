@@ -9,6 +9,7 @@
 @import "../styles/reviews.css";
 @import "../styles/popup.css";
 @import "../styles/burger.css";
+@import "../styles/textsize.css";
 
 html {
   scroll-behavior: smooth;
@@ -18,7 +19,7 @@ html {
 
 header,
 footer,
-.wrapper {
+main {
   margin: 0 auto;
 }
 
@@ -57,26 +58,8 @@ section {
   margin-bottom: 150px;
 }
 
-.title {
-  font-size: 18px;
-  line-height: 25px;
-  color: #121212;
-  text-transform: uppercase;
-}
 
-.heading-indent {
-  margin-bottom: 30px;
-}
 
-.subtitle {
-  font-size: 30px;
-  line-height: 39px;
-}
-
-.inner-text {
-  font-size: 22px;
-  line-height: 30px;
-}
 
 @media (max-width: 1199px) {
 
@@ -90,15 +73,6 @@ section {
     padding-right: 15px;
   }
 
-  .subtitle {
-    font-size: 25px;
-    line-height: 34px;
-  }
-
-  .inner-text {
-    font-size: 20px;
-    line-height: 27px;
-  }
 
 }
 
@@ -107,7 +81,11 @@ section {
   section {
     margin-bottom: 80px;
   }
-
+  
+  header {
+    padding-bottom: 57px;
+  }
+  
   footer {
     padding: 30px 0 26px;
     background-color: #121212;
@@ -116,20 +94,6 @@ section {
   .container {
     padding-left: 12px;
     padding-right: 12px;
-  }
-
-  .title {
-    font-size: 14px;
-    line-height: 19px;
-  }
-
-  .heading-indent {
-    margin-bottom: 20px;
-  }
-
-  .subtitle {
-    font-size: 18px;
-    line-height: 23px;
   }
 
 
