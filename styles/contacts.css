@@ -16,12 +16,19 @@
   letter-spacing: -1px;
 }
 
+.contacts__mail,
+.contacts__phone {
+  position: relative;
+  
+}
+
 .contacts__mail::before,
 .contacts__phone::before {
   content: "";
+  display: block;
   position: absolute;
-  top: -40px;
-  left: -5px;
+  top: -50px;
+  left: -1px;
   display: block;
   width: 24px;
   height: 24px;
