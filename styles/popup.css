@@ -65,7 +65,8 @@
   text-align: center;
 }
 
-.popup__input {
+
+.form__group {
   display: flex;
   flex-direction: column;
   row-gap: 50px;
@@ -73,7 +74,6 @@
 }
 
 .input {
-  /* width: 100%; */
   border: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   font-size: 25px;
@@ -118,7 +118,7 @@
     margin-bottom: 60px;
   }
 
-  .popup__input {
+  .form__group {
     row-gap: 40px;
     margin-bottom: 60px;
   }

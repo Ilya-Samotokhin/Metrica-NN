@@ -81,6 +81,7 @@
   .services__picture {
     height: 315px;
     margin-bottom: 14px;
+    object-fit: cover;
   }
 
   .services .subtitle {

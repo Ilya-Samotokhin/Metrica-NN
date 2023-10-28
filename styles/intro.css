@@ -65,7 +65,6 @@
 
   .intro__image {
     height: 304px;
-    object-fit: cover;
   }
 
   .intro__description {
