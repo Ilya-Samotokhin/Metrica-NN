@@ -4,6 +4,7 @@
 
 .project__image {
   margin-bottom: 15px;
+  object-fit: cover;
 }
 
 .project .subtitle {
@@ -78,7 +79,6 @@
   .project__image {
     margin-bottom: 20px;
     height: 250px;
-    object-fit: cover;
   }
 
   .project .subtitle {
